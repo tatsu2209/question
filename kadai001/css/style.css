@@ -1,0 +1,13 @@
+body{
+  max-width: 1440px;
+  margin: 0 auto 0 auto;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
