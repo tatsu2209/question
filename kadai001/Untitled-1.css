@@ -3,31 +3,27 @@
 }  
 
 body{
+  max-width: 1327px;
   margin: 0 auto 0 auto;
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
-  font-size: 18px;
   font-weight: 400;
   font-style: normal;
 }
 
 header{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  margin: 20px auto 20px auto;
-  max-width: 960px;
+  margin: 20px 0 20px 0;
 }
 
 h1{
-  margin: 0 0 0 20px;
+  margin: 0 0 0 23px;
   font-size: 34px;
-  font-weight: bold;
   border: 1px solid #000000;
   padding: 0 20px 0 20px;
+  text-align: center;
 }
-
 .home{
   color: #000000;
   text-decoration: none;
@@ -39,11 +35,11 @@ h1{
 
 #nav-pc ul{
   display: flex;
-  margin: 18px auto 18px auto;
+  margin: 0 23px 0 0;
+  text-align: center;
 }
 
 #nav-pc li{
-  font-weight: bold;
   list-style: none ;
 }
 
@@ -66,7 +62,6 @@ h2{
 
 h3{
   font-size: 24px;
-  font-weight: bold;
 }
 
 #person{
@@ -92,60 +87,33 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto 20px auto;
 }
 
 #Works-flex{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  margin: 0 auto 0 auto;
+  align-items: center;
   max-width: 960px;
+  margin: 0 auto 0 auto;
 }
 
 .item{
-  width: 25%;
+  width: 100%;
   margin: 0 10px 0 10px;
-  padding-bottom: 60px;
+  text-align: center;
 }
 
-.works{
-  width: 100%;
+.item img{
   margin: 0 auto 0 auto;
+  width: 100%;
+}
+
+.item > p{
+  font-size: 18px;
 }
 
 footer p{
   font-size: 18px;
   margin-bottom: 20px;
   text-align: center;
-}
-
-@media screen and (max-width: 767px){
-  h1{
-    font-size: 28px;
-  }
-
-  #nav-pc li{
-    font-size: 21px;
-    margin: auto 10px auto 10px;
-  }
-
-  #About-flex{
-    flex-direction: column;
-  }
-
-  #content > li{
-    font-size: 21px;
-  }
-
-  #Works-flex{
-    display: block;
-  }
-
-  .item{
-    width: 100%;
-    padding-bottom: 40px;
-    text-align: center;
-  }
-
 }
